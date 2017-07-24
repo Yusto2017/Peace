@@ -1,23 +1,38 @@
 <Html>
 <head>
 <title>Lets Make Peace</title>
+<meta name="viewport" content-type="width=device-width initial-scale=1">
 
 <link rel="stylesheet" href="css/style.css"/>
 
 </head>
 <body >
 
-<div class="left">
-<form action="join.php" method="post">
-<h4>Join The peace campaign</h4>
+<div class="wrapper">
 
-<input type="text" name="username"/><br>
-<input type="password" name="password"/><br>
-<input type="submit" name ="login"/><br>
+<div class="header">
+<h2><center>Peace Initiative Campaign</center><h2>
 
-</form>
 </div>
 
+<div class="topmenu">
+		<a href="" class="button button-primary">Home</a>
+		<a href="" class="button button-primary">Join</a>
+		<a href="" class="button button-primary">Donate</a>
+		<a href="" class="button button-primary">Preach</a>
+		<a href="" class="button button-primary">Home</a>
+</div>
+<div class="left">
+
+<div class="gif"></div>
+
+</div>
+<div class="right"></div>
+<div class="content"></div>
+<div class="footer"></div>
+
+
+</div>
 
 
 </body>

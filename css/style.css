@@ -4,7 +4,7 @@ body{
 	margin:0;
 	background:;
 	font-family:arial;
-	background-image:url(../images/dove.jpg);
+	
 	background-repeat:no-repea;
 	background-image:fill;
 
@@ -12,15 +12,79 @@ body{
 min-height: 1000px
 	
 }
-.left{
-	height:100%;
-	width:20%;
-	background:gray;
+.wrapper{
+	height:760px;
+	width:1024px;
+	background-color:#00ccff;;
+	
+}
+.header{
+	height:260px;
+	width:1024px;
+	background-color:orange;
+	background-image:url(../images/dove.jpg);
+	image-s-resize:100px;
+	color:white;
+	
+	
+}
+.topmenu{
+	width:1024px;
+	height:35px;
+	background-color:lightgreen;
 	text-align:center
-	min-width: 1000px;
-min-height: 1000px;
+}
+.left{
+	height:430px;
+	width:220px;
+	backgroundcolor:pink;
+	float:left;
+	
+	
+}
+.gif{
+	width:250px;
+	height:105px;
+	background-image:url(../images/anim.gif)
+	
+}
+.right{
+	height:430px;
+	width:220px;
+	background-color:gray;
+	float:right;
+}
+.content{
+	width:554px;
+	height:430px;
+	background-color:#cc66cc;
+	margin-left:250px
+}
+.footer{
+	height:75px;
+	width:1024px;
+	background-color:#336633
+}
+button{
+	font: 14px "Trebuchet Ms", sans-serif;
+}
+.button{
+	padding:8px 16px;
+	display:inline-block;
+	text-decoration:none;
+	border-radius:3px;
+}
+.button-primary{
+	background:slategrey;
+	color:#fff
+}
+.button-primary:hover{
+	background:red;
+	
 }
 
-input {
 
-}
+
+
+
+
