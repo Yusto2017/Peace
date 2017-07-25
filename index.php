@@ -17,10 +17,10 @@
 
 <div class="topmenu">
 		<a href="" class="button button-primary">Home</a>
-		<a href="" class="button button-primary">Join</a>
+		<a href="Signup.php" class="button button-primary">Join</a>
 		<a href="" class="button button-primary">Donate</a>
 		<a href="" class="button button-primary">Preach</a>
-		<a href="" class="button button-primary">Home</a>
+		<a href="" class="button button-primary">Add Friend</a>
 </div>
 <div class="left">
 
